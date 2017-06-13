@@ -1,0 +1,27 @@
+{
+  "name": "pokedex",
+  "version": "1.0.0",
+  "description": "Probando XMLHtppRequest con JS",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fbk-rena/pokemon.git"
+  },
+  "keywords": [
+    "js.",
+    "xhr.",
+    "json"
+  ],
+  "author": "LoRena F.B. <fbk.rena@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fbk-rena/pokemon"
+  },
+  "homepage": "https://github.com/fbk-rena/pokemon.git#readme",
+  "dependencies": {
+    "express": "^4.15.3"
+  }
+}
