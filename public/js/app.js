@@ -2,12 +2,12 @@ var cargarPagina = function () {
     cargarPersonajes();
 };
 
+var url = "http://pokeapi.co/api/v2/pokemon/";
+var contador = 1;
+
 var cargarPersonajes = function () {
-    var url = "http://pokeapi.co/api/v2/pokemon/";
     $.getJSON(url, function (response) {
         var pokemons = response.results;
-        var total = response.count;
-        pokemonCapturadosTotal(total);
         mostrarPokemons(pokemons);
     });
 };
@@ -25,7 +25,7 @@ var mostrarPokemons = function (pokemons) {
         
         var $card = '<div class="row center">' +
             '<div class="col m4">' +
-            '<div class="imgPokemon">'+
+            '<img src="__urlImg__">'+
             '<h4>__nombre__</h4>' +
             '</div>' +
             '</div>';
